@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="nav">
+          <a href="https://unsplash.com/" target="blank">UNSPLASH</a>
+          <h2>
+            <i
+              class="fa-sharp fa-solid fa-camera-retro"
+              style="color: rgb(180, 66, 142)"
+            ></i
+            >Image Searcher
+          </h2>
+          <div class="search-box">
+            <input type="text" id="input" placeholder="Search here..." /><i
+              onclick="loadImg()"
+              class="fa-solid fa-magnifying-glass icon"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="grid"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
